@@ -1,0 +1,96 @@
+#select-movie{
+    width: 200px;
+    height: 30px;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-color: bisque;
+}
+
+#search-movie{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    height: 30px;
+    font-size: 21px;
+    margin-top: 10px;
+    background-color: rgb(231, 228, 228);
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,minmax(100px,auto));
+    gap: 15px;
+    background:linear-gradient(to top,rgb(185, 155, 117),rgb(208, 208, 217));
+    margin-left: 0;
+}
+
+#divresult{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(84, 11, 11, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: rgb(243, 237, 237);
+    margin: 10px;
+    
+}
+#divresult:hover{
+    box-shadow: rgba(24, 24, 196, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgba(240, 248, 255, 0.877);
+    
+}
+
+#divresult:hover img{
+    opacity: 90%;
+}
+
+#imgresult{
+    width: 100%;
+}
+
+#presult{
+    font: bold;
+    font-size: 18px;
+}
+
+#space{
+    height: 60px;
+    background:linear-gradient(to top,rgb(254, 254, 255),rgb(168, 128, 128));
+}
+
+header{
+    display: flex;
+    gap: 20px;
+    height: 40vh;
+    background-image:url('https://static.hbo.com/2022-01/HOTD_GOT_banner_1920x375.jpg?w=1920'); 
+    background-repeat: no-repeat;
+    background-size: 100vw 40vh;
+}
+#select-movie{
+    margin-top: 10px;
+    background-color: rgb(168, 125, 125);
+    margin-left: 5px;
+}
+
+h1{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: rgb(161, 128, 128);
+    
+}
+option{
+    font-size: 17px;
+}
+
+
+.img-download {
+  position: relative;
+}
+
+.img-download > a {
+  position: absolute;
+  background: white;
+  bottom: 0;
+  left: 0;
+}
